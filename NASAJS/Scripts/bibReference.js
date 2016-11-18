@@ -82,7 +82,7 @@ document.getElementById('btnSubmit').onclick = function ()
 
 function getReference(citation)
 {
-    var url = "http://adsres.cfa.harvard.edu/cgi-bin/refcgi.py?resolvethose=" + encodeURIComponent(citation);
+    var url = "http://adsres.cfa.harvard.edu:5000/cgi-bin/refcgi.py?resolvethose=" + encodeURIComponent(citation);
 
     $.ajax({
         url: url,
