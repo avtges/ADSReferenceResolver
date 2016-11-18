@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ADS Reference Resolver</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-brand">
+                <h4 class="text-danger"><strong>Front End Task</strong></h4>
+                <p class="text-sm">Howdy, paste references below...</p>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <textarea id="txtCitations" class="form-control">
+                </textarea>
+                <input type="button" id="btnSubmit" value="Submit" class="btn btn-danger btn-sm margin-top-20 pull-right" />
+                <br />
+            </div>
+        </div>
+        <div class="row margin-top-20">
+            <div class="col-md-6">
+                <div id="myProgress">
+                  <div id="myBar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row margin-top-20">
+                    <div class="col-md-12">
+                        <div class="panel panel-success hide">
+                            <div class="panel-heading">Resolved References</div>
+                            <div class="panel-body" id="pnlResolved">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row margin-top-20">
+                    <div class="col-md-12">
+                        <div class="panel panel-warning hide">
+                            <div class="panel-heading">Unresolved References</div>
+                            <div class="panel-body" id="pnlUnresolved">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <label class="hide" id="lblError"></label>
+            </div>
+        </div>
+    </section>
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bibReference.js"></script>
+</body>
+
+</html>
