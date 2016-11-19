@@ -1,11 +1,11 @@
 # ADSReferenceResolver
 
 Simply download and paste the references in the input area.
-
-Git repo for the front end task:
+<br  />
+<br  />Git repo for the front end task:
 <br  />https://github.com/avtges/ADSReferenceResolver
 <br  />
-List of websites I have designed or developed:
+<br  />List of websites I have designed or developed:
 <br  />https://afvec.langley.af.mil/afvec/Home.aspx
 <br  />https://www.rydyn.com/
 <br  />https://goodworld.me/
